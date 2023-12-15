@@ -1,0 +1,32 @@
+.board{
+    background-color: black;
+    margin: 8rem auto;
+    height: 40rem;
+    width: 60rem;
+}
+#middleLine{
+    border-left: 5px dashed white;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 47.5rem;
+}
+.score{
+    color: white;
+    display: flex;
+    font-size: 1rem;
+    font-family: 'DotGothic16', sans-serif;
+}
+.score #player1Score{
+    padding: 0 0 0 25rem;
+}
+.score #player2Score{
+    padding: 0 0 0 8rem;
+}
+
+#ball{
+    position: absolute;
+    background-color: red;
+    width: 1rem;
+    height: 1rem;
+}

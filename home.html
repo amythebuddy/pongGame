@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pong Game</title>
     <link rel="stylesheet" href="style.css">
-    <script src="ticTacToe.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <script src="pong.js" defer></script>
 </head>
 <body>
-    <div></div>
+    <div class="board">
+        <div id = 'paddles1'></div>
+        <div class="score">
+            <h1 id= "player1Score">0</h1>
+            <h1 id= "player2Score">0</h1>
+        </div>
+        <div id = 'middleLine'></div>
+        <div id = 'ball'></div>
+        <div id = 'paddles2'></div>
+    </div>
 </body>
 </html>
